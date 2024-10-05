@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 100%;
+    font-weight: bold;
+}
+/* first div */
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+}
+.btn-primary {
+   
+    outline: none;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    background-color: white;
+    margin: 38px 100px;
+    padding:  17px 24px 17px 24px;
+
+}
+.Tanim{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.first{
+    background-color:white ;
+}
+
+/* banner section*/
+.banner{
+    background-image: url(../images/Hero-bg.png);
+     width:  100% ;
+     height: 100%;
+     left: 0;
+     right: 0;
+     top: 131px;
+     bottom: 4462px;
+    }
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+    gap: 30px 0px;
+}
+
+
+.banner-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 32px 300px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 32px 400px ;
+    gap: 24px 73px;
+    color:rgb(101, 97, 97) ;
+    text-align: center;
+}
+#design{
+    background-color: black;
+    color: white;
+    gap: 0px 0px 45px 0px;
+    font-weight: bold;
+}
+
+/* Why section */
+.web-dev-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+.section-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+.section-descriptioin{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.card .text{
+    width: 60%;
+    text-align: left;
+
+}
+.card .image{
+    width: 30%;
+}
+.card h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+.btn-section{
+    padding: 10px 20px;
+    background-color: white;
+    color:#000;
+    border:1px solid #666;
+    cursor: pointer;
+}
+.card .img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.web-dev-section{
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.inspiration-text{
+    text-align: center;
+    margin: 24px 294px;
+}
+.inspiration-text p{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+
+}
+.social-link{
+    text-align: center;
+}
+
+/* My current target */
+.target{
+    text-align: center;
+    margin: 24px 294px;
+
+}
+.image-1{
+    background-color: #FFE4E1;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    
+}
+.image-2{
+    background-color: #E0FFFF;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+}
+.image-3{
+    background-color: #FFFFE0;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+
+    /* margin: 10px 18px; */
+}
+.All-image h2{
+    /* font-size: 20px;
+    font-weight: bolder; */
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+.All-image p{
+    font-size: 1rem;
+    color: #666;
+    margin: 18px 0px;
+    
+}
+.All-image a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+    margin: 18px 0px;
+}
+.All-image{
+    display: flex;
+    margin: 0px 180px;
+}
+/* My next target */
+.center{
+    text-align: center;
+}
+.center p{
+    font-size: 1rem;
+    color: #666;
+     margin: 24px 294px;
+}
+.My-next-target{
+    text-align: center;
+}
+.react a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.react p{
+    margin: 10px 0px;
+}
+.my-next-target-image{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;                        background: rgb(255, 255, 255);
+    gap: 32px; 
+    
+    width: 1140px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 30px;
+    margin: 30px 24px;
+}
+
+.react h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.react{
+    text-align: left;
+    
+    
+}
+.three-img-father{
+    margin-left:190px ;
+    
+    
+}
+
+/* I-need-support */
+.I-need-support{
+    background-image: url(../images/handshake.jpg);
+    color: aliceblue;
+    position: static;
+    width: 1044px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 260px;
+    border-radius: 20px;
+}
+.I-need-support h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+} 
+.I-need-support p{
+    margin: 20px 290px;
+    text-align: center;
+}
+.input input {
+    /* justify-content: center; */
+    padding: 5px 50px;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+.input button{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+/* footer */
+.footer{
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32;
+    padding: 32px 150px 32px 150px;
+}
+.footer-img img{
+    margin: 0px 10px;
+    
+}
+
+
+
+
+
+
+
+
